@@ -5,8 +5,12 @@
     <groupId>com.wdg</groupId>
     <artifactId>kafka-example</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>springboot</module>
+        <module>..</module>
+    </modules>
 
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>kafka-example</name>
     <url>http://maven.apache.org</url>
